@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^example\.cf$
+RewriteRule (.*) http://igen.cf/DBA/$1 [R=301,L]
+RewriteRule ^$ public[L]
+</IfModule>

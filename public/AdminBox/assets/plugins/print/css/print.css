@@ -1,0 +1,131 @@
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li 
+{ 
+    display: inline-block; 
+    float: left;
+    padding: 5px;
+    border: 1px dotted grey;   
+    font-family: "Courier New";    
+    font-size: 12px;       
+}
+
+
+body, pre
+{    
+    margin: 0;
+    padding: 0;
+}
+
+h2
+{
+    font-family: "Lucida Console";    
+    font-size: 18px;  
+}
+
+#invoice
+{
+    font-family: "Lucida Console";    
+    font-size: 12px;
+    font-weight: bold;
+}
+ 
+h6 
+{
+    page-break-after: always;
+}
+
+@media print /*--This is for Print--*/
+{
+    .btn
+    {
+        display: none;
+    }
+
+    .tble
+    {
+        background-color: #CD853F;
+        border: 1px solid green;
+        /*-webkit-print-color-adjust: exact*/
+        /*above line of codes will set the table background-color and change the border color when we give the print and preview (print preview only when we see on print preview via browser) command*/
+    }
+}
+
+@media screen /*--This is for Print Preview Screen--*/
+{
+    .btn
+    {
+        /*display: none;*/
+    }
+
+    .tble
+    {
+        background-color: #CD853F;
+        border:1px solid green;
+    }
+}
+
+@media print{
+        size: legal;
+        size: landscape;
+        margin: 0px;
+
+
+
+	
+}
+
+
+@media print{
+.zero-margin{margin-top:-25px;}
+
+.date{padding:10px 0px 10px 40px;}
+
+
+
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding:1.5px;
+    line-height: 1.2;
+    vertical-align: top;
+    border-top: 1px solid #DDD;
+    font-size:15px;
+}
+
+address {
+    margin-bottom:1.6px;
+    font-style: normal;
+    line-height: 1.42857;
+}
+
+.space{padding-right:10px;padding-left:10px; border-top: 1px solid #000;}
+
+               }
+
+               .space-form{padding-right:0px;padding-left:60px;}
+
+               .space-form-depositor{padding-right:0px;padding-left:50px;}
+
+               .space-form-dba{padding-right:0px;padding-left:10px;}
+
+.space-bank-name{
+   padding-left:25px;
+}
+
+.space-bank-name-branch{
+
+padding-left:38px;
+}
+
+.space-form-date{
+    padding-left:100px;
+    padding-top: 10px;
+}
+
+
+.bdr{border-right:1px dotted #000;}
