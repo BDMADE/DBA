@@ -10,5 +10,5 @@ It has five sections.<br/>
 
 ## Demo
 http://dhakabar.tk <br/>
-Username: <code>admin</code>
-Password: <code>admin</code>
+Username: <code>demo</code>
+Password: <code>demo</code>
