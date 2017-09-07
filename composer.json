@@ -6,7 +6,8 @@
 	"require": {
 		"laravel/framework": "4.2.*",
 		"php": "7.0.*",
-		"ext-mcrypt": "*"
+		"ext-mcrypt": "*",
+		"ext-pdo_sqlite": "*"
 		
 	},
 	"autoload": {
