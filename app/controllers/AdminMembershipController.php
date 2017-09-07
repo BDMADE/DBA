@@ -160,6 +160,7 @@ class AdminMembershipController extends BaseController{
       
      
      return View::make('Admin/pages/membership/editMember',compact('member')); 
+    #return View::make('Admin/pages/membership/editMember');
       
       
   }
